@@ -1,0 +1,64 @@
+[
+  {
+    "_id": "aula_1",
+    "professor": { "nome": "João Silva" },
+    "assunto": "Programação em Python",
+    "alunos": [
+      {
+        "nome": "Maria Oliveira"
+      },
+      {
+        "nome": "Pedro Souza"
+      },
+
+      {
+        "nome": "Ana Costa"
+      },
+      {
+        "nome": "Bruno Santos"
+      }
+    ]
+  },
+  {
+    "_id": "aula_2",
+    "professor": {
+      "nome": "Ana Clara"
+    },
+    "assunto": "Matemática",
+    "alunos": [
+      {
+        "nome": "João Silva"
+      },
+      {
+        "nome": "Maria Oliveira"
+      },
+      {
+        "nome": "Carlos Silva"
+      },
+      {
+        "nome": "Diana Fernandes"
+      }
+    ]
+  },
+  {
+    "_id": "aula_3",
+    "professor": {
+      "nome": "Pedro Souza"
+    },
+    "assunto": "História",
+    "alunos": [
+      {
+        "nome": "Ana Costa"
+      },
+      {
+        "nome": "Bruno Santos"
+      },
+      {
+        "nome": "Eduardo Pereira"
+      },
+      {
+        "nome": "Fernanda Andrade"
+      }
+    ]
+  }
+]
