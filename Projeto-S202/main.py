@@ -3,7 +3,7 @@ from db.database import Graph
 
 class FootballDAO:
     def __init__(self):
-        self.db = Graph(uri='bolt://54.236.58.107:7687', user='neo4j', password='driver-sills-patrol')
+        self.db = Graph(uri='bolt://3.236.155.50:7687', user='neo4j', password='galley-present-coxswains')
 
     def create_player(self, player):
         return self.db.execute_query('CREATE (n:Player {name:$name, age:$age, health:$health}) RETURN n', player)
